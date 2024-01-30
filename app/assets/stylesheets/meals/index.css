@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.service-main {
+  position: relative;
+  width: 100vw;
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.service-title {
+  height: 15vh;
+}
+
+.nutrients.img {
+  height: 50vh;
+}
+
+.start {
+  margin-top: 5vh;
+  font-size: large;
+  width: 200px;
+  padding: 15px;
+  border: 1px solid black;
+  color: black;
+  background-color: gainsboro;
+  display: block;
+}

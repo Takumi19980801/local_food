@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<%= render "shared/second-header" %>
+<div class='service-main'>
+  <h1 class='service-title'>
+    栄養素を確認してみよう！
+  </h1>
+  <div>
+    <%= image_tag "nutrients.jpg", class: 'nutrients.img' %>
+  </div>
+  <%= form_with(url: "/meals/new", method: :get) do |form| %>
+  <div>
+    <%= form.submit "始める", class:'start' %>
+  </div>
+  <% end %>
+</div>
