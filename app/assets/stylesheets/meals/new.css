@@ -1,0 +1,62 @@
+.nutrients-main {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 主食 */
+.staple-food-main {
+}
+
+.staple-food-title {
+  font-size: 30px;
+  padding: 1vh 30vw;
+  margin-top: 10px;
+  border: 1px solid black;
+  background-color: wheat;
+}
+
+.staple-food-text {
+  display: flex;
+}
+
+.input-text {
+  margin: 10px 0px;
+}
+
+.input-text2 {
+  margin: 10px 19vw;
+}
+
+.staple-food-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.food-name {
+  height: 30px;
+  width: 250px;
+}
+
+.food-count {
+  height: 30px;
+  width: 250px;
+}
+
+.carbohydrates {
+  background-color: orange;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.protein {
+  background-color: red;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.lipid {
+  background-color: pink;
+  text-align: center;
+  border: 1px solid black;
+}

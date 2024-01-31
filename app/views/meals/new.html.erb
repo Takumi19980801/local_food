@@ -1,5 +1,38 @@
-<div class='service-main'>
-  <h1 class='service-title'>
-    栄養素を確認してみよう！
-  </h1>
+<!DOCTYPE HTML>
+<%= render "shared/second-header" %>
+<div class='nutrients-main'>
+
+  <%# 主食 %>
+  <div class='staple-food-main'>
+    <h2 class='staple-food-title'>
+      主食
+    </h2>
+    <div class='staple-food-text'>
+      <p class='input-text'>
+        1. 食品名を選択してください
+      </p>
+      <p class='input-text2'>
+        2. 数を選択してください
+      </p>
+    </div>
+    <div class='staple-food-input'>
+      <div>
+        <%= collection_select(:meal, :staple_food_id, StapleFood.all, :id, :name,{class: 'food-name'}) %>
+      </div>
+      <div>
+        <%= collection_select(:meal, :count_id, Count.all, :id, :name,{class: 'food-count'}) %>
+      </div>
+      <div class='calculation'>
+        <div class='carbohydrates'>
+          炭水化物<span id='nutrients1'></span>
+        </div>
+        <div class='protein'>
+          タンパク質<span id='nutrients2'></span>
+        </div>
+        <div class='lipid'>
+          脂質<span id='nutrients3'></span>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
