@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+.title a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #333333;
+  margin-right: 50vw;
+}
