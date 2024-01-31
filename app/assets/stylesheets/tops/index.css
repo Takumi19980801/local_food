@@ -14,8 +14,8 @@
 }
 
 .image {
-  height: 90vh;
+  height: 88vh;
   width: 100vw;
   object-fit: cover;
-  opacity: 80%
+  opacity: 80%;
 }
