@@ -3,8 +3,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
-/* 主食 */
+
+/* 主食・主菜・副菜 */
 .staple-food-main {
 }
 
@@ -13,7 +15,7 @@
   padding: 1vh 30vw;
   margin-top: 10px;
   border: 1px solid black;
-  background-color: wheat;
+  background-color: rgb(179, 245, 179);
 }
 
 .staple-food-text {
@@ -33,30 +35,83 @@
   justify-content: space-between;
 }
 
-.food-name {
+.food-name1 {
   height: 30px;
   width: 250px;
 }
 
-.food-count {
+.food-count1 {
   height: 30px;
   width: 250px;
 }
 
 .carbohydrates {
-  background-color: orange;
+  background-color: rgb(255, 209, 125);
   text-align: center;
   border: 1px solid black;
 }
 
 .protein {
-  background-color: red;
+  background-color: rgb(255, 125, 125);
   text-align: center;
   border: 1px solid black;
 }
 
 .lipid {
-  background-color: pink;
+  background-color: rgb(255, 192, 203);
   text-align: center;
   border: 1px solid black;
+}
+
+/* 主菜 */
+.food-name2 {
+  height: 30px;
+  width: 250px;
+}
+
+.food-count2 {
+  height: 30px;
+  width: 250px;
+}
+
+/* 副菜 */
+.food-name3 {
+  height: 30px;
+  width: 250px;
+}
+
+.food-count3 {
+  height: 30px;
+  width: 250px;
+}
+
+/* 結果 */
+.result {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.carbohydrates-result {
+  margin-top: 10px;
+  background-color: rgb(255, 209, 125);
+  border: 1px solid black;
+  width: 30%;
+  text-align: center;
+}
+
+.protein-result {
+  margin-top: 10px;
+  background-color: rgb(255, 125, 125);
+  border: 1px solid black;
+  width: 40%;
+  text-align: center;
+}
+
+.lipid-result {
+  margin-top: 10px;
+  background-color: rgb(255, 192, 203);
+  border: 1px solid black;
+  width: 30%;
+  text-align: center;
 }

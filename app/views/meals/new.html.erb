@@ -17,22 +17,109 @@
     </div>
     <div class='staple-food-input'>
       <div>
-        <%= collection_select(:meal, :staple_food_id, StapleFood.all, :id, :name,{class: 'food-name'}) %>
+        <%= collection_select(:meal, :staple_food_id, StapleFood.all, :id, :name,{class: 'food-name1'}) %>
       </div>
       <div>
-        <%= collection_select(:meal, :count_id, Count.all, :id, :name,{class: 'food-count'}) %>
+        <%= collection_select(:meal, :count_id, Count.all, :id, :name,{class: 'food-count1'}) %>
       </div>
       <div class='calculation'>
         <div class='carbohydrates'>
-          炭水化物<span id='nutrients1'></span>
+          炭水化物<span id='nutrients1-1'></span>
         </div>
         <div class='protein'>
-          タンパク質<span id='nutrients2'></span>
+          タンパク質<span id='nutrients2-1'></span>
         </div>
         <div class='lipid'>
-          脂質<span id='nutrients3'></span>
+          脂質<span id='nutrients3-1'></span>
         </div>
       </div>
+    </div>
+  </div>
+  <%# /主食 %>
+
+  <%# 主菜 %>
+  <div class='staple-food-main'>
+    <h2 class='staple-food-title'>
+      主菜
+    </h2>
+    <div class='staple-food-text'>
+      <p class='input-text'>
+        1. 食品名を選択してください
+      </p>
+      <p class='input-text2'>
+        2. 数を選択してください
+      </p>
+    </div>
+    <div class='staple-food-input'>
+      <div>
+        <%= collection_select(:meal, :main_dish_id, MainDish.all, :id, :name,{class: 'food-name2'}) %>
+      </div>
+      <div>
+        <%= collection_select(:meal, :count_id, Count.all, :id, :name,{class: 'food-count2'}) %>
+      </div>
+      <div class='calculation'>
+        <div class='carbohydrates'>
+          炭水化物<span id='nutrients1-2'></span>
+        </div>
+        <div class='protein'>
+          タンパク質<span id='nutrients2-2'></span>
+        </div>
+        <div class='lipid'>
+          脂質<span id='nutrients3-2'></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%# /主菜 %>
+
+  <%# 副菜 %>
+  <div class='staple-food-main'>
+    <h2 class='staple-food-title'>
+      副菜
+    </h2>
+    <div class='staple-food-text'>
+      <p class='input-text'>
+        1. 食品名を選択してください
+      </p>
+      <p class='input-text2'>
+        2. 数を選択してください
+      </p>
+    </div>
+    <div class='staple-food-input'>
+      <div>
+        <%= collection_select(:meal, :side_dish_id, SideDish.all, :id, :name,{class: 'food-name3'}) %>
+      </div>
+      <div>
+        <%= collection_select(:meal, :count_id, Count.all, :id, :name,{class: 'food-count3'}) %>
+      </div>
+      <div class='calculation'>
+        <div class='carbohydrates'>
+          炭水化物<span id='nutrients1-3'></span>
+        </div>
+        <div class='protein'>
+          タンパク質<span id='nutrients2-3'></span>
+        </div>
+        <div class='lipid'>
+          脂質<span id='nutrients3-3'></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%# /副菜 %>
+
+  <%# 結果 %>
+  <div class='result'>
+    <div class='carbohydrates-result'>
+      必要な炭水化物
+      <div>400:<span id='result1'></span></div>
+    </div>
+    <div class='protein-result'>
+      必要なタンパク質
+      <div>65:<span id='result2'></span></div>
+    </div>
+    <div class='lipid-result'>
+      必要な脂質
+      <div>50:<span id='result3'></span></div>
     </div>
   </div>
 </div>
