@@ -2,3 +2,6 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 import "staple_food"
+import "main_dish"
+import "side_dish"
+import "result"
