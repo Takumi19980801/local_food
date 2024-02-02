@@ -7,7 +7,7 @@
   <div>
     <%= image_tag "nutrients.jpeg", class: 'nutrients.img' %>
   </div>
-  <%= form_with(url: "/meals/new", method: :get) do |form| %>
+  <%= form_with(url: "/meals/new", method: :get, data: { turbo: false }) do |form| %>
   <div>
     <%= form.submit "始める", class:'start' %>
   </div>
