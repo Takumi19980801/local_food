@@ -27,7 +27,7 @@
 }
 
 .input-text2 {
-  margin: 10px 19vw;
+  margin: 10px 15vw;
 }
 
 .staple-food-input {
@@ -46,6 +46,7 @@
 }
 
 .carbohydrates {
+  width: 200px;
   background-color: rgb(253, 238, 210);
   text-align: center;
   border: 1px solid black;
