@@ -95,7 +95,7 @@
 
 .carbohydrates-result {
   margin-top: 10px;
-  background-color: rgb(255, 209, 125);
+  background-color: rgb(253, 238, 210);
   border: 1px solid black;
   width: 30%;
   text-align: center;
@@ -103,7 +103,7 @@
 
 .protein-result {
   margin-top: 10px;
-  background-color: rgb(255, 125, 125);
+  background-color: rgb(255, 210, 210);
   border: 1px solid black;
   width: 40%;
   text-align: center;
@@ -111,7 +111,7 @@
 
 .lipid-result {
   margin-top: 10px;
-  background-color: rgb(100, 100, 255);
+  background-color: rgb(210, 210, 255);
   border: 1px solid black;
   width: 30%;
   text-align: center;
