@@ -10,6 +10,7 @@ function post() {
 
     let result;
     if (selectedId === '1') {
+
       carbohydratesElement.textContent = '';
       proteinElement.textContent = '';
       lipidElement.textContent = '';
@@ -33,6 +34,7 @@ function post() {
       carbohydratesElement.textContent = (parseFloat(carbohydratesElement.textContent) * 5).toFixed(2);
       proteinElement.textContent = (parseFloat(proteinElement.textContent) * 5).toFixed(2);
       lipidElement.textContent = (parseFloat(lipidElement.textContent) * 5).toFixed(2);
+
     }
   });
 };

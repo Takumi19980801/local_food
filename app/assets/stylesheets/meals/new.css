@@ -1,0 +1,118 @@
+.nutrients-main {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* 主食・主菜・副菜 */
+.staple-food-main {
+}
+
+.staple-food-title {
+  font-size: 30px;
+  padding: 1vh 30vw;
+  margin-top: 10px;
+  border: 1px solid black;
+  background-color: rgb(224, 255, 224);
+}
+
+.staple-food-text {
+  display: flex;
+}
+
+.input-text {
+  margin: 10px 0px;
+}
+
+.input-text2 {
+  margin: 10px 15vw;
+}
+
+.staple-food-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.food-name1 {
+  height: 30px;
+  width: 250px;
+}
+
+.food-count1 {
+  height: 30px;
+  width: 250px;
+}
+
+.carbohydrates {
+  width: 200px;
+  background-color: rgb(253, 238, 210);
+  text-align: center;
+  border: 1px solid black;
+}
+
+.protein {
+  background-color: rgb(255, 210, 210);
+  text-align: center;
+  border: 1px solid black;
+}
+
+.lipid {
+  background-color: rgb(210, 210, 255);
+  text-align: center;
+  border: 1px solid black;
+}
+
+/* 主菜 */
+.food-name2 {
+  height: 30px;
+  width: 250px;
+}
+
+.food-count2 {
+  height: 30px;
+  width: 250px;
+}
+
+/* 副菜 */
+.food-name3 {
+  height: 30px;
+  width: 250px;
+}
+
+.food-count3 {
+  height: 30px;
+  width: 250px;
+}
+
+/* 結果 */
+.result {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.carbohydrates-result {
+  margin-top: 10px;
+  background-color: rgb(253, 238, 210);
+  border: 1px solid black;
+  width: 30%;
+  text-align: center;
+}
+
+.protein-result {
+  margin-top: 10px;
+  background-color: rgb(255, 210, 210);
+  border: 1px solid black;
+  width: 40%;
+  text-align: center;
+}
+
+.lipid-result {
+  margin-top: 10px;
+  background-color: rgb(210, 210, 255);
+  border: 1px solid black;
+  width: 30%;
+  text-align: center;
+}

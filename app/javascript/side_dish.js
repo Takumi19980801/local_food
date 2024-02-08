@@ -23,6 +23,9 @@ function post (){
     } else if (selectedId === '4') {
       document.getElementById('nutrients1-3').textContent = '2.83';
       document.getElementById('nutrients2-3').textContent = '3.40';
+
+
+
       document.getElementById('nutrients3-3').textContent = '0.32';
     } else {
       document.getElementById('nutrients1-3').textContent = '8.18';
