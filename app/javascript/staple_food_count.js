@@ -1,5 +1,5 @@
 function post() {
-  const selectBox = document.getElementById('meal_count_id');
+  const selectBox = document.getElementById('meal_staple_food_count_id');
   const carbohydratesElement = document.getElementById('nutrients1-1');
   const proteinElement = document.getElementById('nutrients2-1');
   const lipidElement = document.getElementById('nutrients3-1');
@@ -10,7 +10,6 @@ function post() {
 
     let result;
     if (selectedId === '1') {
-
       carbohydratesElement.textContent = '';
       proteinElement.textContent = '';
       lipidElement.textContent = '';
@@ -34,7 +33,6 @@ function post() {
       carbohydratesElement.textContent = (parseFloat(carbohydratesElement.textContent) * 5).toFixed(2);
       proteinElement.textContent = (parseFloat(proteinElement.textContent) * 5).toFixed(2);
       lipidElement.textContent = (parseFloat(lipidElement.textContent) * 5).toFixed(2);
-
     }
   });
 };

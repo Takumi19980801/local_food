@@ -20,7 +20,7 @@
         <%= collection_select(:meal, :staple_food_id, StapleFood.all, :id, :name) %>
       </div>
       <div class='food-count1', id='food-count1'>
-        <%= collection_select(:meal, :count_id, Count.all, :id, :name) %>
+        <%= collection_select(:meal, :staple_food_count_id, Count.all, :id, :name) %>
       </div>
       <div class='calculation'>
         <div class='carbohydrates'>
@@ -55,7 +55,7 @@
         <%= collection_select(:meal, :main_dish_id, MainDish.all, :id, :name) %>
       </div>
       <div class='food-count2', id='food-count2'>
-        <%= collection_select(:meal, :count_id, Count.all, :id, :name) %>
+        <%= collection_select(:meal, :main_dish_count_id, Count.all, :id, :name) %>
       </div>
       <div class='calculation'>
         <div class='carbohydrates'>
@@ -90,7 +90,7 @@
         <%= collection_select(:meal, :side_dish_id, SideDish.all, :id, :name) %>
       </div>
       <div class='food-count3', id='food-count3'>
-        <%= collection_select(:meal, :count_id, Count.all, :id, :name) %>
+        <%= collection_select(:meal, :side_dish_count_id, Count.all, :id, :name) %>
       </div>
       <div class='calculation'>
         <div class='carbohydrates'>
