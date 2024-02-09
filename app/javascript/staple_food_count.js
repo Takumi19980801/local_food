@@ -1,11 +1,11 @@
 function post() {
-  const selectBox = document.getElementById('meal_staple_food_count_id');
+  const count_selectBox = document.getElementById('meal_staple_food_count_id');
   const carbohydratesElement = document.getElementById('nutrients1-1');
   const proteinElement = document.getElementById('nutrients2-1');
   const lipidElement = document.getElementById('nutrients3-1');
 
-  selectBox.addEventListener('change', function() {
-    const selectedId = selectBox.value;
+  count_selectBox.addEventListener('change', function() {
+    const selectedId = count_selectBox.value;
     console.log("選択された値:", selectedId);
 
     if (selectedId === '1') {
