@@ -8,7 +8,6 @@ function post() {
     const selectedId = selectBox.value;
     console.log("選択された値:", selectedId);
 
-    let result;
     if (selectedId === '1') {
       carbohydratesElement.textContent = '';
       proteinElement.textContent = '';
