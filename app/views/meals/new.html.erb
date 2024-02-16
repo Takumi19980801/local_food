@@ -18,6 +18,8 @@
     <div class='staple-food-input'>
       <div class='food-name1'>
         <%= collection_select(:meal, :staple_food_id, StapleFood.all, :id, :name) %>
+        <button id="createSelectButton">新しいセレクトボックスを作成する</button>
+        <div id="selectContainer"></div>
       </div>
       <div class='food-count1'>
         <%= collection_select(:meal, :staple_food_count_id, Count.all, :id, :name) %>
