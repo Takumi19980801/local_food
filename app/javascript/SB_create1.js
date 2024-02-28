@@ -1,5 +1,5 @@
 // ボタン要素を取得
-const createSelectButton = document.getElementById('createSelectButton');
+const createSelectButton = document.getElementById('createSelectButton1');
 
 // ボタンがクリックされたときの処理
 createSelectButton.addEventListener('click', function() {
@@ -15,6 +15,6 @@ createSelectButton.addEventListener('click', function() {
   });
 
   // 新しいセレクトボックスをコンテナに追加
-  const selectContainer = document.getElementById('selectContainer');
+  const selectContainer = document.getElementById('selectContainer1');
   selectContainer.appendChild(newSelect);
 });
