@@ -23,6 +23,8 @@
       </div>
       <div class='food-count1'>
         <%= collection_select(:meal, :staple_food_count_id, Count.all, :id, :name) %>
+        <button id="createSelect_count_Button1">新しいセレクトボックスを作成する</button>
+        <div id="select_count_Container1"></div>
       </div>
       <div class='calculation'>
         <div class='carbohydrates'>
@@ -60,6 +62,8 @@
       </div>
       <div class='food-count2'>
         <%= collection_select(:meal, :main_dish_count_id, Count.all, :id, :name) %>
+        <button id="createSelect_count_Button2">新しいセレクトボックスを作成する</button>
+        <div id="select_count_Container2"></div>
       </div>
       <div class='calculation'>
         <div class='carbohydrates'>
@@ -97,6 +101,8 @@
       </div>
       <div class='food-count3'>
         <%= collection_select(:meal, :side_dish_count_id, Count.all, :id, :name) %>
+        <button id="createSelect_count_Button3">新しいセレクトボックスを作成する</button>
+        <div id="select_count_Container3"></div>
       </div>
       <div class='calculation'>
         <div class='carbohydrates'>
