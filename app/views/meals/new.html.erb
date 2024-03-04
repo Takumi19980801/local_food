@@ -23,12 +23,18 @@
       <div>
         <button id="createSelectButton1">新しいセレクトボックスを作成する</button>
       </div>
+      <div>
+        <button id="deleteSelectButton1">セレクトボックスを削除する</button>
+      </div>
       <div class='food-count1'>
         <%= collection_select(:meal, :staple_food_count_id, Count.all, :id, :name) %>
         <div id="select_count_Container1"></div>
       </div>
       <div>
         <button id="createSelect_count_Button1">新しいセレクトボックスを作成する</button>
+      </div>
+      <div>
+        <button id="deleteSelect_count_Button1">セレクトボックスを削除する</button>
       </div>
       <div class='calculation'>
         <div class='carbohydrates'>
@@ -66,12 +72,18 @@
       <div>
         <button id="createSelectButton2">新しいセレクトボックスを作成する</button>
       </div>
+      <div>
+        <button id="deleteSelectButton2">セレクトボックスを削除する</button>
+      </div>
       <div class='food-count2'>
         <%= collection_select(:meal, :main_dish_count_id, Count.all, :id, :name) %>
         <div id="select_count_Container2"></div>
       </div>
       <div>
         <button id="createSelect_count_Button2">新しいセレクトボックスを作成する</button>
+      </div>
+      <div>
+        <button id="deleteSelect_count_Button2">セレクトボックスを削除する</button>
       </div>
       <div class='calculation'>
         <div class='carbohydrates'>
@@ -109,12 +121,18 @@
       <div>
         <button id="createSelectButton3">新しいセレクトボックスを作成する</button>
       </div>
+      <div>
+        <button id="deleteSelectButton3">セレクトボックスを削除する</button>
+      </div>
       <div class='food-count3'>
         <%= collection_select(:meal, :side_dish_count_id, Count.all, :id, :name) %>
         <div id="select_count_Container3"></div>
       </div>
       <div>
         <button id="createSelect_count_Button3">新しいセレクトボックスを作成する</button>
+      </div>
+      <div>
+        <button id="deleteSelect_count_Button3">セレクトボックスを削除する</button>
       </div>
       <div class='calculation'>
         <div class='carbohydrates'>
