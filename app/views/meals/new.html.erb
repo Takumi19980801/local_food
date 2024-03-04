@@ -18,13 +18,17 @@
     <div class='staple-food-input'>
       <div class='food-name1'>
         <%= collection_select(:meal, :staple_food_id, StapleFood.all, :id, :name) %>
-        <button id="createSelectButton1">新しいセレクトボックスを作成する</button>
         <div id="selectContainer1"></div>
+      </div>
+      <div>
+        <button id="createSelectButton1">新しいセレクトボックスを作成する</button>
       </div>
       <div class='food-count1'>
         <%= collection_select(:meal, :staple_food_count_id, Count.all, :id, :name) %>
-        <button id="createSelect_count_Button1">新しいセレクトボックスを作成する</button>
         <div id="select_count_Container1"></div>
+      </div>
+      <div>
+        <button id="createSelect_count_Button1">新しいセレクトボックスを作成する</button>
       </div>
       <div class='calculation'>
         <div class='carbohydrates'>
@@ -57,13 +61,17 @@
     <div class='staple-food-input'>
       <div class='food-name2'>
         <%= collection_select(:meal, :main_dish_id, MainDish.all, :id, :name) %>
-        <button id="createSelectButton2">新しいセレクトボックスを作成する</button>
         <div id="selectContainer2"></div>
+      </div>
+      <div>
+        <button id="createSelectButton2">新しいセレクトボックスを作成する</button>
       </div>
       <div class='food-count2'>
         <%= collection_select(:meal, :main_dish_count_id, Count.all, :id, :name) %>
-        <button id="createSelect_count_Button2">新しいセレクトボックスを作成する</button>
         <div id="select_count_Container2"></div>
+      </div>
+      <div>
+        <button id="createSelect_count_Button2">新しいセレクトボックスを作成する</button>
       </div>
       <div class='calculation'>
         <div class='carbohydrates'>
@@ -96,13 +104,17 @@
     <div class='staple-food-input'>
       <div class='food-name3'>
         <%= collection_select(:meal, :side_dish_id, SideDish.all, :id, :name) %>
-        <button id="createSelectButton3">新しいセレクトボックスを作成する</button>
         <div id="selectContainer3"></div>
+      </div>
+      <div>
+        <button id="createSelectButton3">新しいセレクトボックスを作成する</button>
       </div>
       <div class='food-count3'>
         <%= collection_select(:meal, :side_dish_count_id, Count.all, :id, :name) %>
-        <button id="createSelect_count_Button3">新しいセレクトボックスを作成する</button>
         <div id="select_count_Container3"></div>
+      </div>
+      <div>
+        <button id="createSelect_count_Button3">新しいセレクトボックスを作成する</button>
       </div>
       <div class='calculation'>
         <div class='carbohydrates'>
